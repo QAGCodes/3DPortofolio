@@ -19,10 +19,19 @@ import {
   starbucks,
   tesla,
   shopify,
+  woven,
+  purdue,
+  kaust,
   carrent,
   jobit,
   tripguide,
   threejs,
+  c,
+  cocoa,
+  swift,
+  github,
+  ruby,
+  rails,
 } from "../assets";
 
 export const navLinks = [
@@ -61,36 +70,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "MongoDB",
@@ -112,59 +97,54 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "cocoa",
+    icon: cocoa,
+  },
+  {
+    name: "swift",
+    icon: swift,
+  },
+  {
+    name: "rails",
+    icon: rails,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Teaching Assistant",
+    company_name: "Purdue",
+    icon: purdue,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted in teaching Java Programming, Computer Architecture, and Operating Systems courses over 3 semesters.",
+      "Instructed two weekly 2-hour lab sessions of over 30 students to provide students with hands-on experience.",
+      "Held 4 weekly office hours to help students with lecture materials and assignments.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Woven",
+    icon: woven,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with Ruby on Rails to create an efficent internal tool for filtering candidates.",
+      "Automated over 50% of the candidate selection process.",
+      "Provided solutions during weekly meetings that were implemented.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Research Intern",
+    company_name: "KAUST",
+    icon: kaust,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jun 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on experimenting with DDoS attacks on several video games and testing their efficiency.",
+      "Responsible for coming up with a research plan, including novel efficiency tests.",
     ],
   },
 ];
