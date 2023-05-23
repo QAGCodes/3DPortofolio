@@ -46,16 +46,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Ruby on Rails Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "IOS App Developer",
+    icon: mobile,
   },
 ];
 
@@ -262,4 +262,18 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const navBarName = "Qusai Ghabrah";
+
+const overviewContent = `
+I am a skilled software engineer with expertise in web and iOS application development. I am passionate about creating innovative and user-friendly products that cater to people's needs. With a keen interest in staying updated with the latest technologies, I am constantly exploring emerging trends to ensure cutting-edge solutions. Through this portfolio, I invite you to explore my work and experience. Let's connect and transform your ideas into exceptional digital experiences!
+`;
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  navBarName,
+  overviewContent,
+};
