@@ -37,6 +37,10 @@ import kaust from "./company/kaust.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import nextjs from "./tech/nextjs.svg";
+import postgresql from "./tech/postgresql.png";
+import sqlite from "./tech/sqlite.png";
+import github_black from "./tech/github_black.png";
 
 export {
   logo,
@@ -75,4 +79,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextjs,
+  postgresql,
+  sqlite,
+  github_black,
 };

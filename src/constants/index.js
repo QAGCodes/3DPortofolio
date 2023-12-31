@@ -1,37 +1,21 @@
 import {
   mobile,
   backend,
-  creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   woven,
   purdue,
   kaust,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  nextjs,
+  postgresql,
+  sqlite,
+  github_black,
   c,
-  cocoa,
-  swift,
-  github,
-  ruby,
-  rails,
 } from "../assets";
 
 export const navLinks = [
@@ -51,63 +35,51 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Ruby on Rails Developer",
+    title: "NextJS Developer",
     icon: backend,
-  },
-  {
-    title: "IOS App Developer",
-    icon: mobile,
   },
 ];
 
 const technologies = [
   {
-    name: "React JS",
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "ReactJS",
     icon: reactjs,
+  },
+  {
+    name: "NextJS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "postgreSQL",
+    icon: postgresql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "sqlite",
+    icon: sqlite,
   },
   {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: github_black,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "cocoa",
-    icon: cocoa,
-  },
-  {
-    name: "swift",
-    icon: swift,
-  },
-  {
-    name: "rails",
-    icon: rails,
   },
 ];
 
@@ -245,7 +217,7 @@ const projects = [
 const navBarName = "Qusai Ghabrah";
 
 const overviewContent = `
-I am a skilled software engineer with expertise in web and iOS application development. I am passionate about creating innovative and user-friendly products that cater to people's needs. With a keen interest in staying updated with the latest technologies, I am constantly exploring emerging trends to ensure cutting-edge solutions. Through this portfolio, I invite you to explore my work and experience. Let's connect and transform your ideas into exceptional digital experiences!
+Hello! I'm Qusai, a Purdue alumnus and a current Computer Science master's student at KAUST, with a deep-seated passion for software engineering, web development, and cybersecurity. My academic pursuits are fueled by a continual exploration of and dabbling in technologies and a personal ambition to innovate and lead in the tech industry. Beyond my professional aspirations to establish a groundbreaking tech company in Saudi Arabia, I find joy and inspiration in chess, music, and camaraderie with friends. Welcome to my journey, where each step is a stride towards redefining technology's future.
 `;
 
 export {
