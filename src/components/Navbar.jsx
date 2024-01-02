@@ -86,6 +86,17 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li
+                key={"resume"}
+                className={`${"text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
+                onClick={() => {
+                  setToggle(!toggle);
+                }}
+              >
+                <a href={resume} target="_blank" rel="noreferrer">
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
