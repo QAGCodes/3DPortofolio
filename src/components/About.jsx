@@ -39,20 +39,13 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-        <div className="flex flex-row justify-between">
-          <motion.p
-            variants={fadeIn("", "", 0.1, 1)}
-            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] flex flex-row justify-between "
-          >
-            {overviewContent}
-          </motion.p>
-          <img
-            className=" rounded-full"
-            src={profile}
-            height={250}
-            width={250}
-          />
-        </div>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] flex flex-row justify-between "
+        >
+          {overviewContent}
+        </motion.p>
+
         <div className="mt-20 flex flex-wrap gap-10">
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />

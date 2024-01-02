@@ -15,15 +15,11 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Welcome! I'm <span className="text-[#915eff]">Qusai</span>
+            <span className="text-[#915eff]">Welcome!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
-            I a passionate web developer and a cybersecurity enthusiast!
-            <br className="sm:block hidden" />
             This is a portfolio where I display my projects, skills, and
-            expereince.
-            <br className="sm:block hidden" />
-            Try interacting with the 3D elements below :)
+            experiences.
           </p>
         </div>
       </div>
