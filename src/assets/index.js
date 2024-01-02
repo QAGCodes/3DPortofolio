@@ -33,6 +33,8 @@ import tesla from "./company/tesla.png";
 import woven from "./company/woven.svg";
 import purdue from "./company/purdue.png";
 import kaust from "./company/kaust.png";
+import mzeeij from "./company/mzeeij.webp";
+import ataatech from "./company/ataaTech.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -41,6 +43,11 @@ import nextjs from "./tech/nextjs.svg";
 import postgresql from "./tech/postgresql.png";
 import sqlite from "./tech/sqlite.png";
 import github_black from "./tech/github_black.png";
+
+import profile from "./personal_photo.jpeg";
+
+import meetup from "./projects/meetup.png";
+import mzeeijProject from "./projects/mzeeij.png";
 
 export {
   logo,
@@ -83,4 +90,9 @@ export {
   postgresql,
   sqlite,
   github_black,
+  mzeeij,
+  ataatech,
+  profile,
+  meetup,
+  mzeeijProject,
 };

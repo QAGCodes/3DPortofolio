@@ -8,14 +8,15 @@ import {
   woven,
   purdue,
   kaust,
-  carrent,
-  jobit,
-  tripguide,
   nextjs,
   postgresql,
   sqlite,
   github_black,
   c,
+  ataatech,
+  mzeeij,
+  meetup,
+  mzeeijProject,
 } from "../assets";
 
 export const navLinks = [
@@ -85,10 +86,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Front-End Engineer",
+    company_name: "Mzeeij",
+    icon: mzeeij, //TODO:
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Present",
+    points: [
+      "Responsible for developing the front-end of Mzeeij's IMS system using NextJS.",
+      "Leading technical documentation efforts including sprint planning and requirments' collection.",
+    ],
+  },
+  {
     title: "Teaching Assistant",
     company_name: "Purdue",
     icon: purdue,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jan 2022 - May 2023",
     points: [
       "Assisted in teaching Java Programming, Computer Architecture, and Operating Systems courses over 3 semesters.",
@@ -117,6 +129,18 @@ const experiences = [
     points: [
       "Worked on experimenting with DDoS attacks on several video games and testing their efficiency.",
       "Responsible for coming up with a research plan, including novel efficiency tests.",
+    ],
+  },
+  {
+    title: "Junior Software Engineer",
+    company_name: "AtaaTech",
+    icon: ataatech, //TODO:
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Jul 2022",
+    points: [
+      "Developed a Twitter data extractor, an educational Telegram bot, and a data dashboard.",
+      "Authored comprehensive documentation for all developed software.",
+      "Created a 1-hour instructional video to educate novices on the fundamentals of cybersecurity.",
     ],
   },
 ];
@@ -150,67 +174,49 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MeetUp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An iOS social networking app crafted for university students to build profiles and extend or accept hangout invites, promoting spontaneous on-campus interactions.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
+      },
+      {
+        name: "Cocoapods",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: meetup,
+    source_code_link: "https://github.com/QAGCodes/MeetUp",
+  },
+  {
+    name: "IMS System",
+    description:
+      "An Inventory Managment System (IMS) that is under progress in my job with Mzeeij company. Github link is not provided as instructed by the company but a demo will be available soon!",
+    tags: [
+      {
+        name: "nextJS",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mzeeijProject,
+    source_code_link: "https://github.com/QAGCodes",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "More on my Github!",
+    description: "You can find more projects by clicking on the Github icon!",
+    tags: [],
+    image: github_black,
+    source_code_link: "https://github.com/QAGCodes",
   },
 ];
 

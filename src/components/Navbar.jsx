@@ -6,6 +6,8 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { navBarName } from "../constants";
 
+import resume from "../assets/resumes/resume.pdf";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -47,6 +49,14 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li
+            key={"resume"}
+            className={`${"text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+          >
+            <a href={resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">

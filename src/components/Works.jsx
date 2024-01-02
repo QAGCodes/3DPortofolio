@@ -48,8 +48,7 @@ const ProjectCard = ({
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p key={tag.name}
-              className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -72,10 +71,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-          eveniet, laudantium dolor repudiandae possimus dicta vero officiis
-          quos officia error veritatis repellendus, in accusantium nulla
-          explicabo animi eos. Maiores, recusandae.
+          Here is a selection of my projects. I have dabbled in many different
+          technologies and I am still learning more through the projects found
+          in my Github!
         </motion.p>
       </div>
 
