@@ -195,9 +195,9 @@ const projects = [
     source_code_link: "https://github.com/QAGCodes/MeetUp",
   },
   {
-    name: "IMS System",
+    name: "IMS",
     description:
-      "An Inventory Managment System (IMS) that is under progress in my job with Mzeeij company. Github link is not provided as instructed by the company but a demo will be available soon!",
+      "An Inventory Management System (IMS) developed alongside my colleague. A demo is available on the GitHub repository!",
     tags: [
       {
         name: "nextJS",
@@ -207,9 +207,13 @@ const projects = [
         name: "tailwind",
         color: "green-text-gradient",
       },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
     ],
     image: mzeeijProject,
-    source_code_link: "https://github.com/QAGCodes",
+    source_code_link: "https://github.com/QAGCodes/Mzeeij",
   },
   {
     name: "More on my Github!",
