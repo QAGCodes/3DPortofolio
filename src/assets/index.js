@@ -25,6 +25,7 @@ import cocoa from "./tech/cocoa.png";
 import ruby from "./tech/ruby.png";
 import swift from "./tech/swift.png";
 import rails from "./tech/rails.png";
+import golang from "./tech/golang.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,6 +36,9 @@ import purdue from "./company/purdue.png";
 import kaust from "./company/kaust.png";
 import mzeeij from "./company/mzeeij.webp";
 import ataatech from "./company/ataaTech.png";
+import mozn from "./company/mozn.png";
+import threatMonitor from "./company/threatMonitor.png";
+import pwc from "./company/pwc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -95,4 +99,8 @@ export {
   profile,
   meetup,
   mzeeijProject,
+  mozn,
+  threatMonitor,
+  pwc,
+  golang,
 };

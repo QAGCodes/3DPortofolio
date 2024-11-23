@@ -17,6 +17,10 @@ import {
   mzeeij,
   meetup,
   mzeeijProject,
+  mozn,
+  threatMonitor,
+  pwc,
+  golang
 } from "../assets";
 
 export const navLinks = [
@@ -36,15 +40,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Software Engineering Explorer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Tech Enthusiast with Diverse Interests",
     icon: mobile,
   },
   {
-    title: "NextJS Developer",
+    title: "Backend & Automation Learner",
     icon: backend,
   },
 ];
@@ -82,24 +86,76 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "golang",
+    icon: golang,
+  },
+
 ];
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company_name: "Mozn",
+    icon: mozn, //TODO: Add icon for Mozn
+    iconBg: "#E6DEDD",
+    date: "Aug 2024 - Present",
+    points: [
+      "Authored design documents fostering technical discussions and precise implementation strategies.",
+      "Optimized queries, achieving a 99.9% performance enhancement.",
+      "Implemented features tailored to client-requested functionalities, enhancing user experience.",
+    ],
+  },
+  {
+    title: "Junior Developer",
+    company_name: "ThreatMonitor",
+    icon: threatMonitor, //TODO: Add icon for ThreatMonitor
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Aug 2024",
+    points: [
+      "Developed a web scraping tool to monitor the Russian Market website for customer domain leaks.",
+      "Implemented brand impersonation detection by scraping Twitter and LinkedIn for customer-specified keywords.",
+      "Created executive impersonation detection features by identifying accounts with usernames or display names similar to company executives.",
+    ],
+  },
+  {
+    title: "Deals Tech Intern",
+    company_name: "PricewaterhouseCoopers (PwC)",
+    icon: pwc, //TODO: Add icon for PwC
+    iconBg: "#E6DEDD",
+    date: "Jun 2024 - Aug 2024",
+    points: [
+      "Automated the creation of client teasers for the Corporate Finance team which reduced manual effort to a single click.",
+      "Developed a GPT-powered tool to extract data from broker reports into Google Sheets.",
+      "Created a tool to automate data transfer between Word document templates as part of a Claims Management project.",
+    ],
+  },
+  {
+    title: "Graduate Researcher",
+    company_name: "KAUST",
+    icon: kaust, //TODO: Add icon for KAUST
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - May 2024",
+    points: [
+      "Developed a tool utilizing communicative LLM agents to automate system testing of microservices.",
+      "Published a paper titled 'Towards LLM-Assisted System Testing for Microservices' at the IEEE AI-DCS workshop.",
+    ],
+  },
+  {
     title: "Front-End Engineer",
     company_name: "Mzeeij",
-    icon: mzeeij, //TODO:
+    icon: mzeeij, //TODO: Add icon for Mzeeij
     iconBg: "#E6DEDD",
     date: "Aug 2023 - Present",
     points: [
       "Responsible for developing the front-end of Mzeeij's IMS system using NextJS.",
-      "Leading technical documentation efforts including sprint planning and requirments' collection.",
+      "Leading technical documentation efforts including sprint planning and requirements' collection.",
     ],
   },
   {
     title: "Teaching Assistant",
-    company_name: "Purdue",
-    icon: purdue,
+    company_name: "Purdue University",
+    icon: purdue, //TODO: Add icon for Purdue
     iconBg: "#E6DEDD",
     date: "Jan 2022 - May 2023",
     points: [
@@ -111,11 +167,11 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Woven",
-    icon: woven,
+    icon: woven, //TODO: Add icon for Woven
     iconBg: "#E6DEDD",
     date: "May 2022 - Aug 2022",
     points: [
-      "Worked with Ruby on Rails to create an efficent internal tool for filtering candidates.",
+      "Worked with Ruby on Rails to create an efficient internal tool for filtering candidates.",
       "Automated over 50% of the candidate selection process.",
       "Provided solutions during weekly meetings that were implemented.",
     ],
@@ -123,18 +179,19 @@ const experiences = [
   {
     title: "Research Intern",
     company_name: "KAUST",
-    icon: kaust,
+    icon: kaust, //TODO: Add icon for KAUST
     iconBg: "#E6DEDD",
     date: "Jun 2022 - Aug 2022",
     points: [
       "Worked on experimenting with DDoS attacks on several video games and testing their efficiency.",
       "Responsible for coming up with a research plan, including novel efficiency tests.",
+      "Authored a paper on the findings, which was presented at the IEEE AI-DCS 2024 workshop.",
     ],
   },
   {
     title: "Junior Software Engineer",
     company_name: "AtaaTech",
-    icon: ataatech, //TODO:
+    icon: ataatech, //TODO: Add icon for AtaaTech
     iconBg: "#E6DEDD",
     date: "Jan 2022 - Jul 2022",
     points: [
@@ -144,6 +201,7 @@ const experiences = [
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -227,8 +285,7 @@ const projects = [
 const navBarName = "Qusai Ghabrah";
 
 const overviewContent = `
-Hello! I'm Qusai, a Purdue alumnus and a current Computer Science master's student at KAUST, with a deep-seated passion for software engineering, web development, and cybersecurity. My academic pursuits are fueled by a continual exploration of and dabbling in technologies and a personal ambition to innovate and lead in the tech industry. Beyond my professional aspirations to establish a groundbreaking tech company in Saudi Arabia, I find joy and inspiration in chess, music, and camaraderie with friends. Welcome to my journey, where each step is a stride towards redefining technology's future.
-`;
+Hi, I'm Qusai Ghabrah - an alumnus of Purdue University and KAUST, with a master's in Computer Science. My passion for software engineering, web development, and cybersecurity drives me to explore and innovate constantly. Throughout my academic and professional journey, I've authored impactful design documents, optimized systems, and published research, all while pushing the boundaries of technology. Ultimately, my goal is to establish a pioneering tech company in Saudi Arabia, making an impact on the global stage. Outside of my professional ambitions, I find joy in chess, music, and spending time with friends. These passions keep me balanced and inspire me to bring creativity into my work. Welcome to my journey as I strive to redefine the future of technology, one project at a time.`;
 
 export {
   services,
